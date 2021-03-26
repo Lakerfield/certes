@@ -3,10 +3,10 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;</TargetFrameworks>
-    <AssemblyVersion>2.3.5</AssemblyVersion>
+    <AssemblyVersion>2.3.6</AssemblyVersion>
     <AssemblyVersion Condition="$(CERTES_ASSEMBLYVERSION) != ''">$(CERTES_ASSEMBLYVERSION)</AssemblyVersion>
-    <Version>2.3.5</Version>
-    <FileVersion>2.3.5</FileVersion>
+    <Version>2.3.6</Version>
+    <FileVersion>2.3.6</FileVersion>
     <InformationalVersion>$(AssemblyVersion)$(CertesInformationalVersionSuffix)</InformationalVersion>
     <Authors>Certes Contributors</Authors>
     <Company />
@@ -20,7 +20,8 @@
     <RepositoryUrl>https://github.com/webprofusion/certes</RepositoryUrl>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\Certes.xml</DocumentationFile>
     <PackageIcon>logo.png</PackageIcon>
-    <PackageId>Webprofusion.Certes</PackageId>
+    <PackageId>Lakerfield.Certes</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
