@@ -1,6 +1,6 @@
 # Certes
 
-**The project is a fork of https://github.com/webprofusion/certes which is a slight fork of https://github.com/fszlin/certes **
+**The project is a fork of https://github.com/webprofusion/certes which is a slight fork of https://github.com/fszlin/certes .**
 The package has added the latest root certificates of lets encrypt. To make it possible to use the staging environment of lets encrypt without code changes.
 The updated package is build with github a workflow and is published to nuget as `Lakerfield.Certes`. 
 
