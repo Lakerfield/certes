@@ -1,7 +1,8 @@
 # Certes
 
-**The project is a slight fork of https://github.com/fszlin/certes with packaging updates and feature updates.**
-The updated package is published to nuget as `Webprofusion.Certes`. 
+**The project is a fork of https://github.com/webprofusion/certes which is a slight fork of https://github.com/fszlin/certes **
+The package has added the latest root certificates of lets encrypt. To make it possible to use the staging environment of lets encrypt without code changes.
+The updated package is build with github a workflow and is published to nuget as `Lakerfield.Certes`. 
 
 Certes is an [ACME](https://en.wikipedia.org/wiki/Automated_Certificate_Management_Environment)
 client runs on .NET 4..6.2+ and .NET Standard 2.0+, supports ACME v2 and wildcard certificates.
@@ -9,13 +10,13 @@ It is aimed to provide an easy to use API for managing certificates during deplo
 
 ## Usage
 
-Install [Certes](https://www.nuget.org/packages/Webprofusion.Certes/) nuget package into your project:
+Install [Certes](https://www.nuget.org/packages/Lakerfield.Certes/) nuget package into your project:
 ```PowerShell
-Install-Package Webprofusion.Certes
+Install-Package Lakerfield.Certes
 ```
 or using .NET CLI:
 ```DOS
-dotnet add package Webprofusion.Certes
+dotnet add package Lakerfield.Certes
 ```
 
 [Let's Encrypt](https://letsencrypt.org/how-it-works/)
