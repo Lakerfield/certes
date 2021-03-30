@@ -12,12 +12,12 @@
     <Company />
     <Product>Certes ACME Client</Product>
     <Title>$(Product)</Title>
-    <Description>A client implementation for the Automated Certificate Management Environment (ACME) protocol. This package is a fork of the excellent https://github.com/fszlin/certes project with updated packaging and feature updates. Used by https://certifytheweb.com</Description>
+    <Description>A client implementation for the Automated Certificate Management Environment (ACME) protocol. This package is a another fork of https://github.com/webprofusion/certes which is a fork of the excellent https://github.com/fszlin/certes project with updated staging root certs of lets encrypt</Description>
     <PackageTags>Certes;letsencrypt;ACME;HTTPS;SSL;Certificate;dotnettool</PackageTags>
-    <PackageProjectUrl>https://github.com/webprofusion/certes</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/lakerfield/certes</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/webprofusion/certes</RepositoryUrl>
+    <RepositoryUrl>https://github.com/lakerfield/certes</RepositoryUrl>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\Certes.xml</DocumentationFile>
     <PackageIcon>logo.png</PackageIcon>
     <PackageId>Lakerfield.Certes</PackageId>
