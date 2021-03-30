@@ -70,8 +70,8 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --configuration Release --no-restore  /p:AssemblyVersion=${{ steps.gitversion.outputs.assemblySemFileVer }} /p:FileVersion=${{ steps.gitversion.outputs.assemblySemFileVer }} /p:InformationalVersion=${{ steps.gitversion.outputs.Sha }}
-    - name: Test
-      run: dotnet test --no-restore --verbosity normal
+#    - name: Test
+#      run: dotnet test --no-restore --verbosity normal
     - name: Pack with dotnet
       run: dotnet pack --no-restore --no-build src/Certes/Certes.csproj --output nuget-packages --configuration Release -p:PackageVersion=${{ steps.gitversion.outputs.semVer }}
     - name: Push with dotnet
